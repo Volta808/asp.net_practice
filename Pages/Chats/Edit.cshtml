@@ -1,0 +1,42 @@
+﻿@page
+@model SignalRChatApiFetch.Pages.Chats.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Chat</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input id="id" type="hidden" asp-for="Chat.Id" />
+            <div class="form-group">
+                <label asp-for="Chat.User" class="control-label"></label>
+                <input id="user" asp-for="Chat.User" class="form-control" />
+                <span asp-validation-for="Chat.User" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Chat.Message" class="control-label"></label>
+                <input id="message" asp-for="Chat.Message" class="form-control" />
+                <span asp-validation-for="Chat.Message" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input id="btsave" type="button" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+	<script src="~/js/signalr/dist/browser/signalr.js"></script>
+	<script src="~/js/edit.js"></script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
