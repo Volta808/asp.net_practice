@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XOf882LMKkIUU+PRMFqccnwaXZQucPm5sD3r+Q8TcCjA96ggVFXxgeW8qfNlcZHe6U3Yz/NGYLpNUAdUbAJIIA==",
+  "dgSpecHash": "/jXDAdBqTMRt9sVnjS/y+bOEVbfVM1bY79hh8V3UYGqog9QvLIzf/7bgfWr0F+NjVGJaNODCja3MDgv1SRyp4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1966221\\Desktop\\SignalRChatApiFetch\\SignalRChatApiFetch.csproj",
+  "projectFilePath": "C:\\Users\\1966221\\Desktop\\asp.net_practice\\SignalRChatApiFetch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1966221\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\1966221\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

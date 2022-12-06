@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1966221\\Desktop\\SignalRChatApiFetch\\SignalRChatApiFetch.csproj": {}
+    "C:\\Users\\1966221\\Desktop\\asp.net_practice\\SignalRChatApiFetch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1966221\\Desktop\\SignalRChatApiFetch\\SignalRChatApiFetch.csproj": {
+    "C:\\Users\\1966221\\Desktop\\asp.net_practice\\SignalRChatApiFetch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1966221\\Desktop\\SignalRChatApiFetch\\SignalRChatApiFetch.csproj",
+        "projectUniqueName": "C:\\Users\\1966221\\Desktop\\asp.net_practice\\SignalRChatApiFetch.csproj",
         "projectName": "SignalRChatApiFetch",
-        "projectPath": "C:\\Users\\1966221\\Desktop\\SignalRChatApiFetch\\SignalRChatApiFetch.csproj",
+        "projectPath": "C:\\Users\\1966221\\Desktop\\asp.net_practice\\SignalRChatApiFetch.csproj",
         "packagesPath": "C:\\Users\\1966221\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1966221\\Desktop\\SignalRChatApiFetch\\obj\\",
+        "outputPath": "C:\\Users\\1966221\\Desktop\\asp.net_practice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
