@@ -10,6 +10,6 @@ namespace SignalRChatApiFetch.Data
         {
 
         }
-        public DbSet<Chat> Chats { get; set; } = default!;
+        public DbSet<Chat> Chatsssss { get; set; } = default!;
     }
 }
