@@ -1,0 +1,30 @@
+﻿@page
+@model Formatif.Pages.IndexProduitsModel
+
+@{
+    ViewData["Title"] = "IndexProduits";
+}
+<div class="text-center">
+    <h1>Les cellulaires de l'instant</h1>
+    <hr/>
+    <h4>Pro 5G</h4>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Produit[0].Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Produit[0].Prix)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Produit[0].Quantite)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="produits">
+    </tbody>
+</table>
